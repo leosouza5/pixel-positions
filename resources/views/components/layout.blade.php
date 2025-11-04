@@ -8,12 +8,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     @vite(['resources/js/app.js', 'resources/css/app.css'])
 
-    
+
 
     <title>Pixel Positions</title>
 </head>
 
-<body class="bg-black text-white">
+<body class="bg-black text-white pb-10">
     <div class="px-10">
         <nav class="flex justify-between items-center py-4 border-b border-white/10">
             <div>
