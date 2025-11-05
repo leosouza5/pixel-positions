@@ -5,11 +5,10 @@
             <h1 class="text-4xl font-bold">
                 Lets Find Your Next Job
             </h1>
+            <x-forms.form action="/search" class="mt-6 ">
+                <x-forms.input :label="false" type="text" name="q" placeholder="I'm looking for..."/>
 
-            <form action="" class=" mt-6">
-                <input type="text" placeholder="I'm looking for..."
-                       class=" rounded-xl bg-white/5 border-white/10 px-5 py-4 w-full max-w-xl">
-            </form>
+            </x-forms.form>
         </section>
 
         <section class="pt-10">
